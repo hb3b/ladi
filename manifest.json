@@ -1,0 +1,13 @@
+{
+  "name": "Ladi",
+  "description": "This extension teaches good browser habits through negative reinforcement by closing all open tabs once the limit (20) is reached.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "icons": {
+    "128": "128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
